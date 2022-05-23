@@ -5,3 +5,4 @@ edition = "2021"
 author = "Facundo Martin Gordillo<facundomgordillo@gmail.com>"
 
 [dependencies]
+rand = "0.8.5"
