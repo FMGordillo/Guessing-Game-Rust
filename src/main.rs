@@ -26,5 +26,5 @@ fn main() {
         Ordering::Greater => println!("Too big!"),
         Ordering::Equal => println!("You've won!"),
     }
-    println!("The secret {}, but your guess {}", random_rounded, guess);
+    println!("The secret is {}, and your guess was {}", random_rounded, guess);
 }
